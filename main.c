@@ -126,6 +126,7 @@ main(void)
 
 	while (1) {
 		idle();
+		//games();
 		menu(main_menu, ARRAY_SIZE(main_menu), 0xCB0, 0x000);
 	}
 }
